@@ -15,4 +15,4 @@ Generates PDF records of github issues
 - Adjust the "OWNER" and "REPO" in the configuration section of the script
 
 ## Run
-- $ python GitHub-issues-to-pdf.py
+- $ python Github-Issue-to-PDF.py
