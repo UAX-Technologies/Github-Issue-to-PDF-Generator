@@ -9,7 +9,12 @@ Generates PDF records of github issues
 
 ## Setup
 - Create a [Github personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) (fine grained access token recommended)
-   - Enable access to issues
+   - [Link to setting page](https://github.com/settings/personal-access-tokens/)
+   - Enable read-only access to:
+      - Contents
+      - Discussions
+      - Issues
+      - Pull requests
    - If you have an organization you may need to [enable access](https://docs.github.com/en/organizations/managing-programmatic-access-to-your-organization/setting-a-personal-access-token-policy-for-your-organization).
 - Set Github Token in your terminal environment
   - $ export GITHUB_TOKEN="ghp_1234567..."
