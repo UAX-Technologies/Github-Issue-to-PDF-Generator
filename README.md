@@ -6,6 +6,7 @@ Generates PDF records of github issues
 ## Requirements
 - $ pip install requests pdfkit markdown2 beautifulsoup4
 - $ sudo apt-get install wkhtmltopdf
+- Tested on Ubuntu 24.04
 
 ## Setup
 - Create a [Github personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) (fine grained access token recommended)
